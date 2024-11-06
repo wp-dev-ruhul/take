@@ -1,0 +1,528 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width:320px) and (max-width: 575.98px) {
+
+    /* banner section css part start  */
+    .banner_main {
+        padding: 20px 0px;
+        background: url(../image/banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner_title {
+        padding: 40px 0px;
+    }
+
+    .b_title {
+        font-family: var(--primary-font);
+        font-weight: 300;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 700;
+        position: relative;
+        z-index: 999;
+    }
+
+    .b_sub {
+        font-family: var(--primary-font);
+        font-size: 13px;
+        line-height: 24px;
+        color: #fff;
+        padding: 0px 20% 0px 0px;
+        position: relative;
+        z-index: 999;
+    }
+
+    .b_iphone {
+        top: 20%;
+        left: 48%;
+    }
+
+    .mar-100 {
+        margin-top: 0px;
+    }
+
+    /* banner section css part End */
+    /* about section css part start  */
+
+    .about_main {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .a_c .a_c_title {
+        font-family: var(--primary-font);
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #222626;
+    }
+
+    .a_c .a_c_sub {
+        font-family: var(--primary-font);
+        font-size: 12px;
+        line-height: 18px;
+        color: #959595;
+        margin-top: 20px;
+        position: relative;
+        z-index: 99;
+    }
+
+    .a_c .mar-100 {
+        margin-top: 0px;
+    }
+
+    /* about section css part End */
+
+    /* gelery section html part start  */
+    .g_c {
+        padding: 30px 10px;
+    }
+
+    .g_c_2 {
+        padding: 30px 10px;
+    }
+
+    .g_c_3 {
+        padding: 30px 10px;
+    }
+
+    .g_c_sub {
+        margin-top: 20px;
+    }
+
+    .g_c_btn {
+        margin-top: 30px;
+    }
+
+    .g_c_4 {
+        padding: 30px 10px;
+    }
+
+    .g_c_5 {
+        padding: 30px 10px;
+    }
+
+    /* gelery section html part End */
+    /* A look at the details css part start  */
+    .a_look {
+        padding: 40px 0px 60px 0px;
+    }
+
+    .s_t {
+        padding-bottom: 30px;
+    }
+
+    .m-20 {
+        margin-top: 20px;
+    }
+
+    .a_title {
+        margin-bottom: 10px;
+    }
+
+    /* A look at the details css part End */
+    /* car section css part start  */
+    .car {
+        padding: 100px 0px 60px 0px;
+    }
+
+    .c_title {
+        font-family: var(--primary-font);
+        font-size: 40px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .reasons {
+        width: 100%;
+        background-color: var(--bg-color);
+        padding: 50px 0px;
+    }
+
+    /* car section css part End */
+
+    /* legecy section css part start  */
+    .lagecy {
+        padding: 30px 0px 50px 0px;
+    }
+
+    .l_top {
+        padding: 3px 10px;
+    }
+
+    .l_top_r {
+        background-color: #bd8cbf;
+    }
+
+    .l_title {
+
+        font-size: 25px;
+    }
+
+    .l_sub {
+
+        font-family: var(--primary-font);
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #8297a7;
+        padding: 0px 0% 0px 0px;
+
+    }
+
+    .l_main_r {
+        background-color: #fff;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 10px;
+        border-radius: 5px;
+
+    }
+
+    /* legecy section css part End  */
+
+    /* footer section css part start  */
+    footer {
+        width: 100%;
+        background-color: #192431;
+        padding: 50px 0px 60px 0px;
+
+
+    }
+
+
+    .f_input {
+        width: 100%;
+    }
+
+
+    .f_nav ul {
+        margin-top: 10px;
+
+    }
+
+    /* footer section css part end  */
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width:575.98px) and (max-width: 767.98px) {
+
+    /* banner section css part start  */
+    .banner_main {
+        padding: 20px 0px;
+        background: url(../image/banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner_title {
+        padding: 40px 0px;
+    }
+
+    .b_title {
+        font-family: var(--primary-font);
+        font-weight: 300;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 700;
+        position: relative;
+        z-index: 999;
+    }
+
+    .b_sub {
+        font-family: var(--primary-font);
+        font-size: 13px;
+        line-height: 24px;
+        color: #fff;
+        padding: 0px 20% 0px 0px;
+        position: relative;
+        z-index: 999;
+    }
+
+    .b_iphone {
+        top: 20%;
+        left: 63%;
+    }
+
+    /* banner section css part End */
+    /* about section css part start  */
+
+    .about_main {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .a_c .a_c_title {
+        font-family: var(--primary-font);
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #222626;
+    }
+
+    .a_c .a_c_sub {
+        font-family: var(--primary-font);
+        font-size: 14px;
+        line-height: 18px;
+        color: #959595;
+        margin-top: 25px;
+        position: relative;
+        z-index: 99;
+    }
+
+    .a_c .mar-100 {
+        margin-top: 0px;
+    }
+
+    /* about section css part End */
+    /* gelery section html part start  */
+    .g_c {
+        padding: 30px 10px;
+    }
+
+    .g_c_2 {
+        padding: 30px 10px;
+    }
+
+    .g_c_3 {
+        padding: 30px 10px;
+    }
+
+    .g_c_sub {
+        margin-top: 20px;
+    }
+
+    .g_c_btn {
+        margin-top: 30px;
+    }
+
+    .g_c_4 {
+        padding: 30px 10px;
+    }
+
+    .g_c_5 {
+        padding: 30px 10px;
+    }
+
+    /* gelery section html part End */
+    /* A look at the details css part start  */
+    .a_look {
+        padding: 40px 0px 60px 0px;
+    }
+
+    .s_t {
+        padding-bottom: 30px;
+    }
+
+    .m-20 {
+        margin-top: 20px;
+    }
+
+    .a_title {
+        margin-bottom: 10px;
+    }
+
+    /* A look at the details css part End */
+    /* car section css part start  */
+    .car {
+        padding: 100px 0px 60px 0px;
+    }
+
+    .c_title {
+        font-family: var(--primary-font);
+        font-size: 40px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .reasons {
+        width: 100%;
+        background-color: var(--bg-color);
+        padding: 50px 0px;
+    }
+
+    /* car section css part End */
+
+    /* legecy section css part start  */
+    .lagecy {
+        padding: 30px 0px 50px 0px;
+    }
+
+    .l_top {
+        padding: 3px 10px;
+    }
+
+    .l_top_r {
+        background-color: #bd8cbf;
+    }
+
+    .l_title {
+
+        font-size: 25px;
+    }
+
+    .l_sub {
+
+        font-family: var(--primary-font);
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #8297a7;
+        padding: 0px 0% 0px 0px;
+
+    }
+
+    .l_main_r {
+        background-color: #fff;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 10px;
+        border-radius: 5px;
+
+    }
+
+    /* legecy section css part End  */
+
+    /* footer section css part start  */
+    footer {
+        width: 100%;
+        background-color: #192431;
+        padding: 50px 0px 60px 0px;
+
+
+    }
+
+
+    .f_input {
+        width: 100%;
+    }
+
+
+    .f_nav ul {
+        margin-top: 10px;
+
+    }
+
+    /* footer section css part end  */
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width:767.98px) and (max-width: 991.98px) {
+
+
+    /* banner section css part start  */
+    .banner_main {
+        padding: 30px 0px;
+        background: url(../image/banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner_title {
+        padding: 100px 0px;
+    }
+
+    .b_title {
+        font-family: var(--primary-font);
+        font-weight: 300;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 700;
+        position: relative;
+        z-index: 999;
+    }
+
+    .b_sub {
+        font-family: var(--primary-font);
+        font-size: 13px;
+        line-height: 24px;
+        color: #fff;
+        padding: 0px 20% 0px 0px;
+        position: relative;
+        z-index: 999;
+    }
+
+    .b_iphone {
+        top: 10%;
+        left: 60%;
+    }
+
+    /* banner section css part End */
+    /* about section css part start  */
+
+    .about_main {
+        padding: 100px 0px 50px 0px;
+    }
+
+    .a_c_title {
+        font-family: var(--primary-font);
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #222626;
+    }
+
+    .a_c_sub {
+        font-family: var(--primary-font);
+        font-size: 14px;
+        line-height: 24px;
+        color: #959595;
+        margin-top: 20px;
+    }
+
+    .mar-100 {
+        margin-top: 0px;
+    }
+
+    /* about section css part End */
+
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* banner section css part start  */
+    .banner_main {
+        padding: 30px 0px;
+        background: url(../image/banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner_title {
+        padding: 100px 0px;
+    }
+
+    .b_title {
+        font-family: var(--primary-font);
+        font-weight: 300;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 700;
+        position: relative;
+        z-index: 999;
+    }
+
+    .b_sub {
+        font-family: var(--primary-font);
+        font-size: 13px;
+        line-height: 24px;
+        color: #fff;
+        padding: 0px 50% 0px 0px;
+        position: relative;
+        z-index: 999;
+    }
+
+    .b_iphone {
+        top: 10%;
+        left: 60%;
+    }
+
+    .mar-100 {
+        margin-top: 0px;
+    }
+
+    /* banner section css part End */
+}

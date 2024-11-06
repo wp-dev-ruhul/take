@@ -1,0 +1,490 @@
+/* Google Font Lato and quicksand css link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Google Font Lato and quicksand css link */
+
+/* Root color and font family */
+:root {
+    --primary-font: "Open Sans", sans-serif;
+    --primary-color: #15a4fa;
+    --bg-color: #82ca9c;
+}
+
+
+/* Root color and font family */
+/* basic css desing file */
+/* Target all browsers */
+input[type=number] {
+    -moz-appearance: textfield;
+    /* For Firefox */
+    -webkit-appearance: none;
+    /* For Chrome, Safari, Edge */
+    appearance: none;
+    /* For modern browsers */
+}
+
+/* Optional: Hide the up/down arrows in WebKit-based browsers (like Chrome) */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+/* check box color change  */
+input[type="checkbox"]:checked {
+    accent-color: var(--logo-color);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+}
+
+body,
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+span,
+table,
+footer,
+nav,
+div,
+section {
+    padding: 0;
+    margin: 0;
+}
+
+/* copy section css part start  */
+
+.copy {
+    background-color: #9E9BBF;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.copy p,
+.copy p a {
+    font-size: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000;
+}
+
+.copy p a {
+    color: rgb(1, 46, 46);
+    margin-left: 5px;
+}
+
+/* copy section css part End */
+/* basic css style desing ended */
+
+/* banner section css part start  */
+.banner_main {
+    padding: 60px 0px;
+    background: url(../image/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_title {
+    padding: 350px 0px;
+}
+
+.b_title {
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 60px;
+    color: #fff;
+}
+
+.b_sub {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    line-height: 24px;
+    color: #fff;
+    padding: 0px 65% 0px 0px;
+}
+
+.b_iphone {
+    top: 30%;
+    left: 48%;
+}
+
+/* banner section css part End */
+
+/* about section css part start  */
+
+.about_main {
+    padding: 100px 0px 150px 0px;
+}
+
+.a_c_title {
+    font-family: var(--primary-font);
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #222626;
+}
+
+.a_c_sub {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 24px;
+    color: #959595;
+    margin-top: 40px;
+}
+
+.mar-100 {
+    margin-top: 175px;
+}
+
+/* about section css part End */
+/* gelery section html part start  */
+.g_c {
+    width: 100%;
+    background-color: #f5989d;
+    padding: 50px 60px;
+}
+
+.g_c_2 {
+    width: 100%;
+    background-color: #615f7d;
+    padding: 50px 60px;
+}
+
+.g_c_3 {
+    width: 100%;
+    background: url(../image/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 60px;
+
+}
+
+.g_c_title {
+    font-family: var(--primary-font);
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #fff;
+}
+
+.g_c_sub {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.g_c_btn {
+    margin-top: 40px;
+
+}
+
+.g_c_btn a {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+
+
+
+}
+
+.g_c_btn a i {
+    margin-left: 15px;
+}
+
+.g_c_4 {
+    width: 100%;
+    background: url(../image/about-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 59px 60px;
+}
+
+.g_c_5 {
+    width: 100%;
+    background-color: #82ca9c;
+    padding: 50px 60px;
+}
+
+/* gelery section html part End */
+/* A look at the details css part start  */
+.a_look {
+    padding: 80px 0px 160px 0px;
+}
+
+.s_t {
+    font-family: var(--primary-font);
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #222626;
+    padding-bottom: 70px;
+}
+
+.a_title {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #67676d;
+    margin-bottom: 10px;
+}
+
+.a_sub {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #959595;
+    text-align: justify;
+}
+
+/* A look at the details css part End */
+/* car section css part start  */
+.car {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../image/car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 455px 0px 140px 0px;
+
+}
+
+.c_title {
+    font-family: var(--primary-font);
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.c_sub {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+
+}
+
+.reasons {
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 125px 0px;
+}
+
+/* car section css part End */
+
+/* legecy section css part start  */
+.lagecy {
+    padding: 100px 0px 130px 0px;
+}
+
+.l_top {
+    padding: 3px 15px;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    font-family: var(--primary-font);
+    font-size: 11px;
+    line-height: 25px;
+    font-weight: 900;
+    color: #fff;
+    display: inline-block;
+
+}
+
+.l_top_r {
+    background-color: #bd8cbf;
+
+}
+
+.l_title {
+
+    font-family: var(--primary-font);
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #67676d;
+    margin: 20px 0px;
+
+}
+
+.l_sub {
+
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #8297a7;
+    padding: 0px 40% 0px 0px;
+
+}
+
+.l_btn {
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    background-color: var(--bg-color);
+    margin: 25px 0px;
+
+}
+
+.l_btn a {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.l_photo_box img {
+    margin: 0px 5px;
+}
+
+.l_main_r {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 60px;
+
+}
+
+/* legecy section css part End  */
+
+/* footer section css part start  */
+footer {
+    width: 100%;
+    background-color: #192431;
+    padding: 130px 0px 150px 0px;
+
+
+}
+
+.f_title {
+
+    font-family: var(--primary-font);
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;
+
+
+}
+
+.f_sub {
+
+    font-family: var(--primary-font);
+    font-size: 13px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 20px;
+
+
+}
+
+footer form {
+    margin-top: 20px;
+}
+
+footer form input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.f_input {
+    width: 70%;
+}
+
+footer form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 50px;
+    background-color: var(--bg-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+footer form button i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.f_nav ul {
+    margin-top: 15px;
+
+}
+
+.f_nav ul li a {
+    display: block;
+    font-family: var(--primary-font);
+    font-size: 13px;
+    line-height: 24px;
+    color: #fff;
+}
+
+/* footer section css part end  */
